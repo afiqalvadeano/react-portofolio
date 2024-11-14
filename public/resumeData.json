@@ -49,15 +49,15 @@
     "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
-        "school": "Universitas Indonesia",
+        "school": "Universitas Pembangunan Nasional Veteran Yogyakarta",
         "degree": "Bachelor degree of Computer Science",
-        "graduated": "June 2021",
+        "graduated": "June 2024",
         "description": "I am joining gemastik competition"
       },
       {
         "school": "SMA 39 Jakarta",
         "degree": "Science",
-        "graduated": "May 2017",
+        "graduated": "May 2018",
         "description": "I am joining computer olympiad"
       }
     ],
