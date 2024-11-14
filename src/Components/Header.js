@@ -8,11 +8,11 @@ class Header extends Component {
     const project = this.props.data.project;
     const github = this.props.data.github;
     const name = this.props.data.name;
-    const desciprion = this.props.data.desciprion;
+    const description = this.props.data.description;
 
     return (
       <header id="home">
-        <ParticlesBg type="cirlce" bg={true} />
+        <ParticlesBg type="circle" bg={true} />
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
             Show navigation
@@ -60,20 +60,26 @@ class Header extends Component {
               <h1 className="responsive-headline">{name}</h1>
             </Fade>
             <Fade bottom duration={1200}>
-              <h3>{desciprion}</h3>
+              <h3>{description}</h3>
             </Fade>
             <Fade bottom duration={2000}>
               <ul className="social">
                 <a href={project} className="button btn project-btn">
-                  <i className="fa fa-book"></i> Project
+                  <i className="fa fa-book"></i>Project
                 </a>
-                <a href={project} className="button btn github-btn">
-                  <i className="fa fa-book"></i> Github
+                <a href={github} className="button btn github-btn">
+                  <i className="fa fa-github"></i>Github
                 </a>
               </ul>
             </Fade>
           </div>
         </div>
+
+        <p className="scrolldown">
+          <a className="smoothscroll" href="#about">
+            <i className="icon-down-circle"></i>
+          </a>
+        </p>
       </header>
     );
   }
