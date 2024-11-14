@@ -16,8 +16,6 @@ class About extends Component {
     const email = this.props.data.email;
     const resumeDownload = this.props.data.resumedownload;
 
-    console.log(this.props);
-
     return (
       <section id="about">
         <Fade duration={1000}>
