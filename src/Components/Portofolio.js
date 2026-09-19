@@ -1,20 +1,46 @@
 import React, { Component } from "react";
 import Zmage from "react-zmage";
-import Fade from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
-let id = 0;
 class Portfolio extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const projects = this.props.data.projects.map(function (projects) {
-      let projectImage = "images/portfolio/" + projects.image;
+    const projects = this.props.data.projects.map((project) => {
+      const projectImage = "images/portfolio/" + project.image;
 
       return (
-        <div key={id++} className="columns portfolio-item">
-          <div className="item-wrap">
-            <Zmage alt={projects.title} src={projectImage} />
-            <div style={{ textAlign: "center" }}>{projects.title}</div>
+        <div className="project-card" key={project.title}>
+          <div className="project-image">
+            <Zmage
+              alt={project.title}
+              src={projectImage}
+            />
+          </div>
+
+          <div className="project-content">
+            <p className="project-category">
+              {project.category}
+            </p>
+
+            <h3>{project.title}</h3>
+
+            <p className="project-description">
+              {project.description ||
+                "A project focused on applying technology, data, and analytical thinking to solve practical problems."}
+            </p>
+
+            {project.url && project.url !== "#" && (
+              <a
+                href={project.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-link"
+              >
+                View Project
+                <i className="fa fa-arrow-right"></i>
+              </a>
+            )}
           </div>
         </div>
       );
@@ -22,16 +48,21 @@ class Portfolio extends Component {
 
     return (
       <section id="portfolio">
-        <Fade left duration={1000} distance="40px">
-          <div className="row">
-            <div className="twelve columns collapsed">
-              <h1>Check out some of my works</h1>
-              <div
-                id="portfolio-wrapper"
-                className="bgrid-quarters s-bgrid-thirds cf"
-              >
-                {projects}
-              </div>
+        <Fade bottom duration={1000}>
+          <div className="portfolio-container">
+            <div className="section-heading portfolio-heading">
+              <p className="section-label">PROJECTS</p>
+
+              <h2>Selected Projects</h2>
+
+              <p className="portfolio-intro">
+                A selection of projects involving data analysis, system
+                development, reporting, and applied machine learning.
+              </p>
+            </div>
+
+            <div className="projects-grid">
+              {projects}
             </div>
           </div>
         </Fade>
