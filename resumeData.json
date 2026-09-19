@@ -1,180 +1,125 @@
 {
   "main": {
-    "name": "Muhammad Afiq",
-    "description": "I am a programmer",
-    "image": "profilepic.jpg",
+    "name": "Muhammad Afiq Alvadeano",
+    "description": "System Development • Data • Analytics",
+    "image": "profil.jpg",
     "github": "https://github.com/afiqalvadeano",
-    "project": "https://github.com/afiqalvadeano",
-    "bio": "Ini adalah section biografi aku",
-    "contactmessage": "Hello, here I am",
-    "email": "myemail@gmail.com",
-    "phone": "877-1234-5678",
+    "project": "#portfolio",
+    "bio": "I work at the intersection of system development, data, and business processes. I have experience building and improving internal systems, working with SQL and data processing, developing reports and dashboards, and translating operational requirements into practical technology solutions.",
+    "contactmessage": "Have a project, opportunity, or just want to talk about data and technology?",
+    "email": "afiqalvadeano@gmail.com",
+    "phone": "",
     "address": {
-      "street": "Jl Margonda Raya",
-      "city": "Depok",
+      "street": "",
+      "city": "Bekasi",
       "state": "West Java",
-      "zip": "16024"
+      "zip": ""
     },
-    "website": "https://github.com/afiqalvadeano",
-    "resumedownload": "https://github.com/afiqalvadeano",
+    "website": "https://afiqalvadeano.github.io/react-portofolio/",
+    "resumedownload": "",
     "social": [
       {
-        "name": "facebook",
-        "url": "https://github.com/mutiarahmatun",
-        "className": "fa fa-facebook"
-      },
-      {
-        "name": "twitter",
-        "url": "http://twitter.com",
-        "className": "fa fa-twitter"
-      },
-      {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/mutia-rahmatun-husna/",
+        "url": "https://www.linkedin.com/in/afiqalvadeano/",
         "className": "fa fa-linkedin"
       },
       {
-        "name": "instagram",
-        "url": "http://instagram.com/mutia.rahmatun",
-        "className": "fa fa-instagram"
+        "name": "github",
+        "url": "https://github.com/afiqalvadeano",
+        "className": "fa fa-github"
       },
       {
-        "name": "github",
-        "url": "https://github.com/mutiarahmatun",
-        "className": "fa fa-github"
+        "name": "instagram",
+        "url": "https://instagram.com/afiqalvadeano",
+        "className": "fa fa-instagram"
       }
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage": "My experience combines system development, SQL-based data processing, reporting, dashboard development, and business and system analysis.",
     "education": [
       {
-        "school": "Universitas Indonesia",
-        "degree": "Bachelor degree of Computer Science",
-        "graduated": "June 2021",
-        "description": "I am joining gemastik competition"
-      },
-      {
-        "school": "SMA 39 Jakarta",
-        "degree": "Science",
-        "graduated": "May 2017",
-        "description": "I am joining computer olympiad"
+        "school": "Universitas Pembangunan Nasional \"Veteran\" Yogyakarta",
+        "degree": "Bachelor of Informatics Engineering",
+        "graduated": "2024",
+        "description": "GPA: 3.49 / 4.00"
       }
     ],
     "work": [
       {
-        "company": "PT. Linimuda",
-        "title": "Software Engineer",
-        "years": "April 2020 - February 2022",
-        "description": "Creating a website and maintenance"
+        "company": "PT Nusantara Sakti Group",
+        "title": "Programmer (Data & System Analyst)",
+        "years": "December 2024 - Present",
+        "description": "Develop and enhance internal HR systems based on business and operational requirements. Perform SQL-based data processing, validation, reporting, and dashboard data preparation. Translate requirements into system flows and technical implementations, while supporting testing, UAT, deployment, troubleshooting, and user assistance."
       },
       {
-        "company": "My Skill Id",
-        "title": "Frontend Engineer",
-        "years": "February 2022 - present",
-        "description": "Creating a mobile application"
+        "company": "Jogja IT Clinic",
+        "title": "Web Development Intern",
+        "years": "May 2021 - July 2021",
+        "description": "Worked on web development tasks involving WordPress and plugin implementation, including customization, testing, troubleshooting, and supporting web-based solutions based on project requirements."
       }
     ],
-    "skills": [
-      {
-        "name": "Java",
-        "level": "90%"
-      },
-      {
-        "name": "Python",
-        "level": "70%"
-      },
-      {
-        "name": "ReactJS",
-        "level": "85%"
-      },
-      {
-        "name": "VueJS",
-        "level": "88%"
-      },
-      {
-        "name": "Kotlin",
-        "level": "95%"
-      },
-      {
-        "name": "PHP",
-        "level": "60%"
-      }
-    ]
+    "skills": {
+      "dataAnalytics": [
+        "SQL & Data Processing",
+        "Data Analysis",
+        "Excel",
+        "Power BI",
+        "Dashboard & Reporting",
+        "Data Validation"
+      ],
+      "systemAnalysis": [
+        "System Analysis",
+        "Requirement Analysis",
+        "Business Process Analysis",
+        "System Design",
+        "UAT & Testing",
+        "Troubleshooting"
+      ],
+      "development": [
+        "JavaScript",
+        "PHP",
+        "HTML & CSS",
+        "Python",
+        "Git / GitHub"
+      ],
+      "toolsDatabase": [
+        "MariaDB / MySQL",
+        "Apache Superset",
+        "Reporting Tools",
+        "Ksystem / KSWeb"
+      ]
+    }
   },
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
-        "category": "My travel blog for my post-university",
-        "image": "01.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "title": "HR Workforce & Attrition Analytics",
+        "category": "Power BI • Data Analysis • HR Analytics",
+        "image": "HR_Workforce_Analytics.jpg",
+        "description": "Interactive HR dashboard built in Power BI to analyze workforce and attrition patterns across departments, job roles, age groups, and overtime, with KPI monitoring for employee overview and attrition insights.",
+        "url": "#"
       },
       {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "02.jpg",
-        "url": "http://www.timbakerdev.com"
+        "title": "Coffee Valley — Coffee Trading Management System",
+        "category": "PHP • MySQL • PDO • Bootstrap",
+        "image": "coffee_valley.png",
+        "description": "A web-based coffee trading management system developed as a practical project, featuring coffee bean catalogue, daily pricing, distributor management, and operational data management.",
+        "url": "#"
       },
       {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
+        "title": "Land Cover Classification",
+        "category": "CNN • Python • Sentinel-2 • Google Earth Engine",
         "image": "03.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+        "description": "Academic research project applying Convolutional Neural Networks to classify land-cover changes using Sentinel-2 satellite imagery and Google Earth Engine.",
+        "url": "#"
       },
       {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
+        "title": "Personal Expense Dashboard",
+        "category": "Power BI • Excel • Data Analysis",
         "image": "04.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "05.jpg",
-        "url": "http://www.smirkspace.com"
-      },
-      {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "06.jpg",
-        "url": "https://www.canadianwanderlust.com"
-      },
-      {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "01.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "02.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "03.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "04.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "05.jpg",
-        "url": "http://www.smirkspace.com"
-      },
-      {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "06.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "description": "Personal data analytics project using expense data to explore spending patterns, category distribution, payment methods, and monthly trends through an interactive Power BI dashboard.",
+        "url": "#"
       }
     ]
   }
